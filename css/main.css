@@ -1,0 +1,15 @@
+div{
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+}
+
+section{
+    background-color: red;
+    width: 400px;
+}
+
+article{
+    background-color: green;
+    width: 400px;
+}
