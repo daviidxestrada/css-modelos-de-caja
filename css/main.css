@@ -1,15 +1,40 @@
-div{
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+.content,
+.content2 {
+    width:50% ;
+    height:150px ;
+    min-width: 300px;
+    max-width:500px;
+    padding: 50px 20px;
+    margin: 10px auto;
+    
+    border-width:20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px 20px 5px 10px;
+
+}
+
+
+.content{
     background-color: blue;
-    display: inline-block;
-    width: 100px;
 }
 
-section{
-    background-color: red;
-    width: 400px;
-}
-
-article{
+.content2{
     background-color: green;
-    width: 400px;
+    box-sizing: content-box;
+}
+
+.overflow{
+    width: 500px;
+    height: 100px;
+    margin: 50px auto;
+    border: 5px solid black;
+    overflow: auto;
 }
